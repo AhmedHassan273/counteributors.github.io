@@ -82,31 +82,36 @@ ss {
 }
 
 #menu {
-    list-style: none;
-    display: flex;
-    position: fixed;
     z-index: 1;
-    flex-direction: row;
-    justify-content: flex-end;
-    /* text-align: left; */
+    background-color: rgba(30, 26, 44, 0.8);
+    width: 100%;
+    padding: 0 50px;
+    line-height: 30px;
+    height: 50px;
 }
 
-#menu li a {
-    text-decoration: none;
-    padding: 8px 16px;
-    background-color: rgba(40, 40, 55, 0.5);
-    color: #FFBC01;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-#menu li a:hover {
-    background-color: rgba(40, 40, 55, 1);
-}
-
+#menu li a,
 #menu li {
-    padding: 0 10px 0;
+    border-radius: 5px;
+    padding: 2px 5px;
+    text-align: center;
+    color: #E7B325;
+    font-size: 1em;
+    margin: auto 0;
+    letter-spacing: 2px;
 }
+
+#menu ul {
+    margin-left: 620px;
+}
+
+#menu li:hover {
+    background-color: rgba(65, 65, 71, 0.58);
+}
+
+
+/*
+*/
 
 #section0 {
     color: white !important;
@@ -360,6 +365,8 @@ ss {
     padding-right: 5px;
 }
 
+
+/*
 .comet {
     position: absolute;
     z-index: 1;
@@ -403,4 +410,4 @@ ss {
         box-shadow: none;
         background: none;
     }
-}
+}*/
