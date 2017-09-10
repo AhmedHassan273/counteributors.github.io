@@ -2,6 +2,10 @@ $(window).load(function() {
     $('.preloader').fadeOut(5000); // set duration in brackets 
 });
 
+particlesJS.load('particles-canvas', 'js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+});
+
 $(document).ready(function() {
     $('#fullpage').fullpage({
         //sectionsColor: ['#1bbc9b', '#4BBFC3', '#B92B27', 'whitesmoke', '#ccddff'],
