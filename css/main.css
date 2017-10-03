@@ -15,7 +15,7 @@
     width: 650px;
     height: 60px;
     left: 25%;
-    top: 50%;
+    top: 28%;
     position: absolute;
 }
 
@@ -79,6 +79,9 @@
     top: 9px;
 }
 
+
+/*   Navigation Bar   */
+
 #menu {
     z-index: 1;
     background-color: rgba(30, 26, 44, 0.8);
@@ -113,10 +116,6 @@
         background-color: rgba(24, 20, 37, 0.93);
     }
 }
-
-
-/*
-*/
 
 #section0 {
     color: white !important;
